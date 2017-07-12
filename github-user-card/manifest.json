@@ -1,0 +1,18 @@
+{
+    "name": "github user card",
+    "description": "Get the qr code when its icon is clicked",
+    "version": "1.2",
+    "browser_action": {
+        "name": "Click to get the qr code"
+    },
+    "manifest_version": 2,
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_scripts": [{
+        "matches": ["https://*/*", "http://*/*"],
+        "js": ["jquery.min.js", "test.js"],
+        "css": ["user-card.css"]
+    }]
+}

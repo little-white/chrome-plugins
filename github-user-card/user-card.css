@@ -1,0 +1,87 @@
+.user-card {
+    position: absolute;
+}
+
+.user-card {
+    width: 267px;
+}
+
+.user-card svg {
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 25px;
+}
+
+.user-card-header {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    height: 84px;
+    border-bottom: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #fff;
+}
+
+.user-card-content {
+    background-color: #2e353c;
+    height: 156px;
+    border-bottom: 1px solid #404243;
+    padding: 74px 32px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.user-card-content .description {
+    font-size: 18px;
+    color: #d5d7d9;
+}
+
+.user-card-content .name {
+    font-size: 14px;
+    color: #7d7e7c;
+}
+
+.user-card-footer {
+    height: 59px;
+    background-color: #2e353c;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 7px 40px;
+    box-sizing: border-box;
+}
+
+.user-card-footer .repos,
+.user-card-footer .followers {
+    display: inline-block;
+    text-align: center;
+}
+
+.user-card-footer .repos div:first-child,
+.user-card-footer .followers div:first-child {
+    color: #898e8f;
+}
+
+.user-card-footer .repos div:last-child,
+.user-card-footer .followers div:last-child {
+    color: #606264;
+}
+
+.user-card-footer .followers {
+    float: right;
+}
+
+.user-card .avatar {
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    top: 23px;
+    left: 71px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+}
+
+.user-card .avatar img {
+    /* background-color: blue; */
+    width: 100%;
+}
