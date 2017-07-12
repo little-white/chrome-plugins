@@ -1,0 +1,18 @@
+{
+    "name": "highlight text",
+    "description": "highlight text as remarks",
+    "version": "1.0",
+    "browser_action": {
+        "name": "Click to get the qr code"
+    },
+    "manifest_version": 2,
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_scripts": [{
+        "matches": ["https://*/*", "http://*/*"],
+        "js": ["jquery.min.js", "jquery.selection.js", "findAndReplaceDOMText.js", "test.js"],
+        "css": ["test.css"]
+    }]
+}
